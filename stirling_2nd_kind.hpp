@@ -9,7 +9,7 @@ constexpr int stirling_2nd()
     if constexpr (K == 0){
         return (N == 0) ? 1 : 0;
     }
-    else if constexpr (K == 1 || (N == K)){
+    else if constexpr (K == 1 || N == K){
         return 1;
     }
     else {

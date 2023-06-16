@@ -2,6 +2,7 @@
 
 #include "fibonacci.hpp"
 
+// リュカ数
 template<int N>
 constexpr int lucas()
 {
